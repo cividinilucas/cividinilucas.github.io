@@ -16,6 +16,37 @@
     margin-top: 20px; /* Adiciona um espaço entre o header e o main */
 }
 
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #443f3f;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #534f4f;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .6s;
+}
+
+nav.menu-lateral:hover{
+    width: 170px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu 
+
+u li.item-menu a .icon{
+    height: 50px;
+    height: 10px;
+}
+
 .button-container {
     display: inline-block;
     background-color: #fff;
@@ -39,4 +70,14 @@ footer {
     width: 100%; /* Largura total */
     bottom: 0; /* Fica no rodapé da página */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li.item-menu{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
 }
